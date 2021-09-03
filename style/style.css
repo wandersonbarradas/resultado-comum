@@ -382,3 +382,26 @@ nav img{
         width: 323px;
     }
 }
+@media (max-width:873px) {
+    .box-input{
+        width: 223px;
+    }
+    nav img{
+        display: none;
+    }
+    nav ul {
+        padding-left: 0px;
+    }
+    .info-1 {
+        justify-content: flex-start;
+    }
+    .descricao {
+        max-width: 380px;
+    }
+    .box-resultados-relacionados{
+        flex-direction: column;
+    }
+    .box-relacionados {
+        align-items: flex-start;
+    }
+}
